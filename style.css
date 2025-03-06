@@ -1,0 +1,151 @@
+
+   body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: azure;
+    
+  }
+ 
+  header {
+    background-color: lightsteelblue;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  nav {
+    background-color: lightcoral;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    justify-items: auto;
+
+  }
+  
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+ 
+  nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+  }
+  
+ 
+  
+
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    background-color: azure;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .intro {
+    text-align: center;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: '1fr 1fr'
+   
+  }
+  
+
+  .project-item {
+    border: 1px solid azure;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: azure;
+  }
+  
+ 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+
+  table thead {
+    background-color: black;
+    color:azure;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid azure;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  form label {
+    font-weight: bold;
+  }
+  
+
+  form input, form select {
+    padding: 10px;
+    border: 1px solid azure;
+    border-radius: 4px;
+  }
+  
+
+  .phone-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+
+  form button {
+    padding: 10px;
+    border: none;
+    background-color: lightcoral;
+    color: azure;
+    border-radius: 4px;
+    font-size: 1em;
+   
+  }
+  
+  
+  form button:hover {
+    background-color: red;
+  }
+  
+
+  footer {
+    background-color:black;
+    color:azure;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
