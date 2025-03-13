@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Simple Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src='script.js' defer></script>
+</head>
+<body>
+    <div>
+        <h1>Calc</h1>
+        <form id ="calcForm">
+            <input type="number" id="num1" name="num1" placeholder="Number 1" required>
+            <input type="number" id="num2" name="num2" placeholder="Number 2" required>
+            <select id="operator" name="operator">
+                <option value="">None</option>
+                <option value="Add">Add</option>
+                <option value="Subtract">Subtract</option>
+                <option value="Multiply">Multiply</option>
+                <option value="Divide">Divide</option>
+            </select>
+            <br>
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
