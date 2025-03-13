@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harry Potter Fan Site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: "PT Serif", serif;
+    }
+    /* Fullscreen hero image styling */
+    .hero-image {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+    /* Card image fixed height for consistency */
+    .card-img-top {
+      height: 300px;
+      object-fit: cover;
+    }
+    /* Season image: fixed height and same width */
+    .season-img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Harry Potter</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Char">CHARCTERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Seasons">SEASONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Location&form">CONTACT</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="container-fluid p-0" >
+    <div class="row m-0">
+      <div class="col-12 p-0">
+        <img src="https://media.vogue.mx/photos/5c070ab5dcda3006d4831bd3/16:9/w_2560%2Cc_limit/harry_potter_7503.jpg" 
+             alt="Hero Image" 
+             class="hero-image img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <!-- Characters Section -->
+  <section class="py-5">
+    <div class="container "id="Char">
+      <h1 class="text-center mb-5">Characters</h1>
+      <div class="row">
+        <!-- Harry Card -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://images.amcnetworks.com/bbcamerica.com/wp-content/uploads/2015/06/harrypotter-800x600.jpg" 
+                 class="card-img-top" alt="Harry">
+            <div class="card-body text-center">
+              <h5 class="card-title">Harry Potter</h5>
+              <p class="card-text">
+                Harry Potter, known as "The Boy Who Lived," is brave and selfless. His journey from humble beginnings to defeating dark forces inspires millions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Hermione Card -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://i.pinimg.com/originals/33/21/1c/33211ce56522412901b43dfa1557d94a.jpg" 
+                 class="card-img-top" alt="Hermione">
+            <div class="card-body text-center">
+              <h5 class="card-title">Hermione Granger</h5>
+              <p class="card-text">
+                Hermione Granger is celebrated for her intelligence, resourcefulness, and determination. Her dedication to learning and justice makes her a vital ally in every adventure.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Ron Card -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://media.harrypotterfanzone.com/ron-weasley-order-of-the-phoenix-portrait.jpg" 
+                 class="card-img-top" alt="Ron Weasley">
+            <div class="card-body text-center">
+              <h5 class="card-title">Ron Weasley</h5>
+              <p class="card-text">
+                Ron Weasley, the loyal friend of Harry, is known for his humor and heart. His unwavering support and courage often shine brightest in challenging times.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Season 1 Section -->
+  <section class="py-5 bg-light">
+    <div class="container" id="Seasons">
+      <div class="row align-items-center">
+        <!-- Image column: left -->
+        <div class="col-lg-6">
+          <img src="https://m.media-amazon.com/images/M/MV5BMTMzNzY4NDgzMl5BMl5BanBnXkFtZTcwMTMzNDc3Mw@@._V1_.jpg" 
+               class="img-fluid season-img" alt="Season 1">
+        </div>
+        <!-- Text column: right -->
+        <div class="col-lg-6">
+          <h2>Season 1</h2>
+          <p>
+            Season 1 marks the beginning of the magical journey. Characters embark on their first adventures, discovering hidden talents and confronting early challenges in the wizarding world. This season lays the foundation for the mystical universe, introducing us to the wonders and perils of a hidden realm of magic.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Season 2 Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Image column: left -->
+        <div class="col-lg-6">
+          <img src="https://www.tvguide.com/a/img/catalog/provider/1/2/1-8548330221.jpg" 
+               class="img-fluid season-img" alt="Season 2">
+        </div>
+        <!-- Text column: right -->
+        <div class="col-lg-6">
+          <h2>Season 2</h2>
+          <p>
+            Season 2 continues the story with deeper plots and evolving relationships. The stakes rise as characters grow, face new challenges, and unravel more magical mysteries. This season delves into complex character dynamics, powerful alliances, and unexpected twists that redefine the struggle between good and evil.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location & Form Section -->
+  <div class="py-5 bg-light">
+    <div class="container" id="Location&form">
+      <div class="row">
+        <!-- Location Column -->
+        <div class="col-lg-6">
+          <h2 class="text-center">Location</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250757.53034214705!2d75.65040709453126!3d10.881032099999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7b100789a24fd%3A0x3fcaf2ce1872456b!2sHogwarts%3A%20The%20House%20of%20Harry!5e0!3m2!1sen!2sin!4v1741242708111!5m2!1sen!2sin" 
+                  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- Form Column -->
+        <div class="col-lg-6">
+          <h2 class="text-center">Sign In</h2>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="container bg-dark">
+    <div class="row">
+        <div class="col-lg-12">
+            <h4 class="text-center text text-white fs-6">All Copy Rights Reserved@Ranesh</h4>
+        </div>
+    </div>
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-kenU1KFdBIe4zBB1QGj6jYfQo0atTgqYY+g1Nf6z2zYH8jYJZZcQ9lFHK3Mbs48A" 
+          crossorigin="anonymous"></script>
+</body>
+</html>
